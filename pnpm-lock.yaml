@@ -171,6 +171,9 @@ importers:
       postcss-nesting:
         specifier: ^13.0.2
         version: 13.0.2(postcss@8.5.3)
+      wrangler:
+        specifier: ^4.26.1
+        version: 4.26.1(@cloudflare/workers-types@4.20250730.0)
 
 packages:
 
@@ -2918,9 +2921,6 @@ packages:
 
   expressive-code@0.41.3:
     resolution: {integrity: sha512-YLnD62jfgBZYrXIPQcJ0a51Afv9h8VlWqEGK9uU2T5nL/5rb8SnA86+7+mgCZe5D34Tff5RNEA5hjNVJYHzrFg==}
-
-  exsolve@1.0.4:
-    resolution: {integrity: sha512-xsZH6PXaER4XoV+NiT7JHp1bJodJVT+cxeSH1G0f0tlT0lJqYuHUP3bUx2HtfTDvOagMINYp8rsqusxud3RXhw==}
 
   exsolve@1.0.7:
     resolution: {integrity: sha512-VO5fQUzZtI6C+vx4w/4BWJpg3s/5l+6pRQEHzFRM8WFi4XffSP1Z+4qi7GbjWbvRQEbdIco5mIMq+zX4rPuLrw==}
@@ -8707,8 +8707,6 @@ snapshots:
       '@expressive-code/plugin-shiki': 0.41.3
       '@expressive-code/plugin-text-markers': 0.41.3
 
-  exsolve@1.0.4: {}
-
   exsolve@1.0.7: {}
 
   extend@3.0.2: {}
@@ -10293,7 +10291,7 @@ snapshots:
   pkg-types@2.1.0:
     dependencies:
       confbox: 0.2.1
-      exsolve: 1.0.4
+      exsolve: 1.0.7
       pathe: 2.0.3
 
   possible-typed-array-names@1.1.0: {}
